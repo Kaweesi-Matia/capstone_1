@@ -3,6 +3,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 8%;
+  height: 150px;
 }
 
 .footer-logo img {
@@ -31,5 +32,17 @@ footer {
 
   .footnote {
     font-size: 1.2rem;
+  }
+
+  #wc-logo {
+    height: 60px;
+    position: relative;
+    top: 30px;
+    left: 70px;
+  }
+
+  #copy {
+    position: relative;
+    bottom: 30px;
   }
 }

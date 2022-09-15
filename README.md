@@ -11,6 +11,9 @@ This project is about creating a mobile and desktop view of my personal portifol
 - HTML
 - CSS
 - Javascript
+## Project Documentation
+
+- Here is the [link](https://drive.google.com/drive/folders/1QkF9T9JSBUrJq0YpqDdxC0JLzWtngtOg) to my Zoom video
 
 ### Features
 
@@ -63,3 +66,9 @@ Give a star if you liked this project
 ### :memo: License
 
 This project is MIT licensed.
+
+ see the link for MIT [https://github.com/Kaweesi-Matia/capstone_1/blob/capstone-project/MIT.md]
+
+## Acknowledgments
+[Cindy Shin](https://www.behance.net/adagio07)
+[Microverse](https://www.microverse.org/about-us)

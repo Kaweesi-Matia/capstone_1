@@ -13,7 +13,7 @@
 }
 
 .partner-section img {
-  width: 15%;
+  width: 4%;
   filter: saturate(0);
   cursor: pointer;
   transition: filter 0.15s;
@@ -21,4 +21,8 @@
 
 .partner-section img:hover {
   filter: unset;
+}
+
+.sec-title {
+  color: #d3d3d3;
 }
