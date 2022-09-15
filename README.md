@@ -4,7 +4,7 @@ This project is about creating a mobile and desktop view of my personal portifol
 
 ## Live Demo Link
 
-- [Kaweesi-Matia Portfolio](https://github.com/Kaweesi-Matia/mobile_website.git)
+- [Kaweesi-Matia / capstone_1](https://kaweesi-matia.github.io/capstone_1/)
 
 ## Built with
 
