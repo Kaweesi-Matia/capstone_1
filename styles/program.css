@@ -1,0 +1,137 @@
+.program-section {
+  background-image: url("../images/Background/main-pattern_bg.png");
+  background-color: var(--color-black);
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+
+.sec-title {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--ff-lato);
+  font-size: 1.2rem;
+  color: var(--color-lightgrey);
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#musicians {
+  padding-left: 30px;
+}
+
+#sponsors {
+  padding-left: 20px;
+}
+
+#tv {
+  padding-left: 23px;
+}
+
+#artiste {
+  padding-left: 30px;
+}
+
+#sponsor {
+  padding-left: 15px;
+}
+
+#tvs {
+  padding-left: 20px;
+}
+
+.indicator {
+  position: absolute;
+  width: 3.125rem;
+  height: 0.25rem;
+  border-radius: 0.3125rem;
+  bottom: -0.75rem;
+  transform-origin: center;
+  background-color: var(--color-red);
+}
+
+.cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 1.125rem;
+  padding: 2.5rem 0.875rem;
+  justify-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 0.875rem;
+  background-color: rgb(128 128 128 / 20%);
+  cursor: pointer;
+  transition: outline 0.15s ease-in-out;
+}
+
+.card:hover {
+  outline: 2px solid #d3d3d3;
+}
+
+.card h3 {
+  color: var(--color-red);
+  flex: 0.5;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: left;
+  min-width: 100px;
+}
+
+.card p {
+  color: var(--color-lightgrey);
+  flex: 3;
+}
+
+@media (min-width: 768px) {
+  .sec-title {
+    font-size: 1.9rem;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fit, 200px);
+    column-gap: 1.125rem;
+    justify-content: center;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card h3 {
+    text-align: center;
+    flex: none;
+  }
+
+  .card p {
+    text-align: center;
+  }
+
+  .program-section .primary-btn {
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    padding: unset;
+  }
+
+  #speech {
+    position: relative;
+    bottom: 25px;
+  }
+
+  #talk {
+    position: relative;
+    bottom: 20px;
+  }
+
+  #trophy {
+    position: relative;
+    bottom: 4px;
+  }
+}

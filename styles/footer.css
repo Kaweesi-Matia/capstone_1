@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+}
+
+.footer-logo img {
+  object-fit: cover;
+  object-position: center;
+  width: 150px;
+}
+
+.footnote {
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--color-black);
+  opacity: 0.8;
+  width: max-content;
+}
+
+.footnote span {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .footer-logo img {
+    width: 21.875rem;
+  }
+
+  .footnote {
+    font-size: 1.2rem;
+  }
+}
