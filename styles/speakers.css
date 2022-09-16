@@ -7,7 +7,7 @@
   padding: 2rem 0;
 }
 
-.speakers-section .sec-title {
+.speakers-section .program-title {
   color: var(--color-black);
 }
 
@@ -70,7 +70,7 @@
   margin-bottom: 24px;
 }
 
-.speaker-title .indicator {
+.speaker-title .card-prog {
   left: 0;
   width: 1.5625rem;
   height: 0.1875rem;

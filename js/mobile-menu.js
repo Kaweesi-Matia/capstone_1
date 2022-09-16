@@ -40,7 +40,7 @@ function renderMobileMenu() {
   homeLi.appendChild(homeLink);
   navLinks.prepend(homeLi);
 
-  navLinks.querySelector('.accronym-link').style.display = 'none';
+  navLinks.querySelector('.main-link').style.display = 'none';
 
   const links = navLinks.querySelectorAll('li');
   links.forEach((link) => {

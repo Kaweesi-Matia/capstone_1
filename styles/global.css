@@ -48,7 +48,7 @@ h2.dummy-heading {
   visibility: hidden;
 }
 
-.primary-btn {
+.main-btn {
   display: block;
   text-transform: capitalize;
   text-decoration: none;
@@ -67,7 +67,7 @@ h2.dummy-heading {
   transition: background-color 0.15s, box-shadow 0.15s;
 }
 
-.primary-btn:hover {
+.main-btn:hover {
   color: var(--color-red);
   background: var(--color-white);
 }

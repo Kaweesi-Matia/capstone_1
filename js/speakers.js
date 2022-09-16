@@ -109,7 +109,7 @@ function renderSpeakers() {
   const sectionSpeakers = document.getElementById('speakers');
 
   const heading = document.createElement('h2');
-  heading.className = 'sec-title';
+  heading.className = 'program-title';
   heading.innerText = 'Guest Speakers';
 
   const indicator = document.createElement('span');

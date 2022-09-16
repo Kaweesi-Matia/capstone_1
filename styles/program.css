@@ -1,11 +1,11 @@
-.program-section {
+.agenda {
   background-image: url("../images/Background/main-pattern_bg.png");
   background-color: var(--color-black);
   overflow-x: auto;
   padding: 2rem 0;
 }
 
-.sec-title {
+.program-title {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -42,7 +42,7 @@
   padding-left: 20px;
 }
 
-.indicator {
+.card-prog {
   position: absolute;
   width: 3.125rem;
   height: 0.25rem;
@@ -90,7 +90,7 @@
 }
 
 @media (min-width: 768px) {
-  .sec-title {
+  .program-title {
     font-size: 1.9rem;
   }
 
@@ -113,7 +113,7 @@
     text-align: center;
   }
 
-  .program-section .primary-btn {
+  .agenda .main-btn {
     text-decoration: underline;
     background-color: transparent;
     border: none;

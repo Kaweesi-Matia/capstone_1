@@ -1,6 +1,6 @@
 /* Toolbar Section */
 
-.toolbar-container {
+.menu-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -35,17 +35,17 @@
   transition: all 0.5s ease-in-out;
 }
 
-.top-navigation {
+.first-nav {
   gap: 2rem;
   display: none;
 }
 
-.top-navigation li {
+.first-nav li {
   align-items: flex-start;
   list-style: none;
 }
 
-.top-navigation a {
+.first-nav a {
   color: var(--color-white);
 }
 
@@ -53,32 +53,32 @@
   color: var(--color-black);
 }
 
-.top-navigation a:hover {
+.first-nav a:hover {
   color: var(--color-red);
 }
 
-.top-navigation svg {
+.first-nav svg {
   width: 1.5rem;
   height: 1.5rem;
   transition: transform 0.275s ease-in-out;
 }
 
-.top-navigation svg:hover {
+.first-nav svg:hover {
   transform: translateY(-8px) scale(1.2);
 }
 
-.top-navigation svg:hover path {
+.first-nav svg:hover path {
   fill: var(--color-red);
 }
 
-.bottom-navigation {
+.second-nav {
   display: none;
   background-color: var(--color-white);
   align-items: center;
   padding: 0 4rem;
 }
 
-.bottom-navigation img {
+.second-nav img {
   width: 130px;
   object-fit: cover;
 }
@@ -164,7 +164,7 @@ header {
   padding: 80px 0.9375rem;
 }
 
-.slogan {
+.motion {
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5rem;
@@ -193,7 +193,7 @@ header {
   -webkit-background-clip: text;
 }
 
-.title .sub {
+.title .introduction {
   display: block;
   font-family: inherit;
 }
@@ -221,7 +221,7 @@ header {
   border: 5px solid var(--color-whitesmoke);
 }
 
-.event-date {
+.date {
   font-family: var(--ff-cocogoose);
   font-weight: 500;
   font-size: 1.4em;
@@ -231,14 +231,14 @@ header {
   opacity: 0.8;
 }
 
-.event-location {
+.venue {
   font-size: 1.1rem;
   opacity: 0.5;
   color: var(--color-black);
 }
 
 @media (min-width: 768px) {
-  .toolbar-container {
+  .menu-container {
     padding: unset;
     max-width: unset;
     height: max-content;
@@ -248,7 +248,7 @@ header {
     display: none;
   }
 
-  .top-navigation {
+  .first-nav {
     display: inline-flex;
     justify-content: flex-end;
     width: 100%;
@@ -256,7 +256,7 @@ header {
     padding: 0.625rem 4rem 0.625rem 0;
   }
 
-  .bottom-navigation {
+  .second-nav {
     position: sticky;
     top: 0;
     z-index: 21;
@@ -275,7 +275,7 @@ header {
     width: 59%;
   }
 
-  .slogan {
+  .motion {
     font-size: 3rem;
   }
 
