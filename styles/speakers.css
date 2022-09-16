@@ -1,0 +1,110 @@
+.speakers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid var(--color-white);
+  background-color: var(--color-white);
+  padding: 2rem 0;
+}
+
+.speakers-section .program-title {
+  color: var(--color-black);
+}
+
+.speakers-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  row-gap: 3.875rem;
+  padding: 2.5rem 24px;
+  justify-items: center;
+}
+
+.speaker-item {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.speaker-profile-container {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 55%;
+  width: 115px;
+  height: 115px;
+}
+
+.speaker-profile-pic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 95px;
+  height: 106px;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.speaker-info h3 {
+  color: var(--color-black);
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 6px;
+}
+
+.speaker-info h4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-red);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.89rem;
+  margin-bottom: 24px;
+}
+
+.speaker-title .card-prog {
+  left: 0;
+  width: 1.5625rem;
+  height: 0.1875rem;
+  border-radius: 0.3125rem;
+  bottom: -0.75rem;
+  transform-origin: center;
+  background-color: var(--color-lightgrey);
+}
+
+.speaker-info p {
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 0.8rem;
+  color: var(--color-black);
+  opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .speakers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.125rem;
+    justify-content: center;
+    align-content: center;
+    width: 75%;
+    min-width: 768px;
+  }
+
+  .speaker-item {
+    max-width: 700px;
+  }
+
+  .speaker-info p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+}

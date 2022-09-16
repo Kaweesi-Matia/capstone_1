@@ -1,0 +1,47 @@
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8%;
+  height: 150px;
+  padding-left: 8%;
+  padding-right: 22%;
+  background-color: #f0f0f0;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: 150px;
+}
+
+.footnote {
+  font-weight: 700;
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: var(--color-black);
+  opacity: 0.8;
+}
+
+.footnote span {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .footer-logo img {
+    width: 21.875rem;
+  }
+
+  .footnote {
+    font-size: 1.2rem;
+  }
+
+  #wc-logo {
+    height: 60px;
+    top: 30px;
+    left: 70px;
+  }
+
+  #copy {
+    bottom: 30px;
+  }
+}

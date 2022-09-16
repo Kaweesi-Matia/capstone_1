@@ -1,0 +1,208 @@
+@import "./index.css";
+
+header {
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.title:hover {
+  background-image: url("../images/Background/seamless-pattern-of-african-elements-vector.jpg");
+}
+
+.intro {
+  background-color: var(--color-white);
+  border: 2px solid var(--color-lightgrey);
+  font-weight: 400;
+  text-align: center;
+  margin-left: initial;
+}
+
+.contact-info {
+  color: var(--color-black);
+  font-weight: 500;
+  text-align: center;
+}
+
+.contact-info img {
+  display: inline-block;
+  width: 80px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 2px;
+  vertical-align: middle;
+  border: 1.5px solid var(--color-red);
+}
+
+.email {
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--color-black);
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+  background-image: none;
+  background-color: var(--color-white);
+  overflow-x: auto;
+  padding: 2rem 0;
+}
+
+.sec-title {
+  color: var(--color-black);
+}
+
+section p {
+  text-align: center;
+  color: var(--color-black);
+  font-weight: 400;
+  opacity: 0.7;
+  max-width: 910px;
+  padding: 20px;
+}
+
+.logo-demo {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid var(--color-lightgrey);
+  margin: auto 20px;
+}
+
+.logo-demo li {
+  display: inline-block;
+}
+
+.logo-demo img {
+  max-width: 70%;
+  height: auto;
+}
+
+.past-event-section {
+  border-top: 1.4px solid var(--color-lightgrey);
+  background-color: var(--color-white);
+  padding: 2rem 5%;
+}
+
+.past-event-sectio .sec-title {
+  color: var(--color-black);
+}
+
+.past-event-section p {
+  max-width: none;
+}
+
+.past-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.past-events li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 35vw;
+  box-shadow: inset -100vw -100vh #ec534280;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: box-shadow 0.45s, transform 0.45s;
+}
+
+.past-events li:first-child {
+  background-image: url("../images/Past-events/2014_worldcup.jpg");
+}
+
+.past-events li:last-child {
+  background-image: url("../images/Past-events/2018_worldcup.webp");
+  background-size: cover;
+}
+
+.past-events li:hover {
+  box-shadow: unset;
+  transform: scale(1.025);
+}
+
+.past-events li h3 {
+  position: absolute;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-white);
+}
+
+.past-events li h3 span {
+  display: block;
+  font-size: 1.5rem;
+}
+
+.partner-section .sec-title {
+  color: var(--color-lightgrey);
+}
+
+@media (max-width: 500px) {
+  .past-events li h3 {
+    font-size: 1.5rem;
+    color: var(--color-white);
+  }
+
+  .past-events li h3 span {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header > * {
+    padding-left: unset;
+  }
+
+  .slogan {
+    display: none;
+  }
+
+  .logo-section {
+    border-top: 1.4px solid var(--color-lightgrey);
+    align-items: center;
+  }
+
+  .logo-demo img {
+    max-width: max-content;
+    width: 29.375rem;
+  }
+
+  .past-events {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .past-events li {
+    max-width: 38.5rem;
+    max-height: 21.875rem;
+  }
+
+  .partner-section {
+    display: none;
+  }
+
+  footer {
+    background-color: var(--color-black);
+  }
+
+  .footer-logo img {
+    content: url("../images/Logos/Qatar-logo.jpg");
+  }
+
+  .footnote {
+    color: var(--color-white);
+  }
+}

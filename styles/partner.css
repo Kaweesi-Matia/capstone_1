@@ -1,0 +1,28 @@
+.partner-section {
+  background-color: var(--color-black);
+  padding: 2rem 0;
+  opacity: 0.9;
+}
+
+.partners-logo-container {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.partner-section img {
+  width: 4%;
+  filter: saturate(0);
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+
+.partner-section img:hover {
+  filter: unset;
+}
+
+.program-title {
+  color: #d3d3d3;
+}
